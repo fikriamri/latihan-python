@@ -1,0 +1,94 @@
+{% extends 'base/base.html' %}
+
+{% block title %}
+<title>Author</title>
+{% endblock %}
+
+{% block jumbotron_content %}
+{% load static %}
+<div class="row justify-content-center">
+    <div class="col-12 text-center img-logo">
+        <img src="{% static 'img/alpha-logo.png' %}" alt="">
+    </div>
+</div>
+<div class="row justify-content-center">
+    <h1 class="title-text">Alpha Tech Academy Blog</h1>
+</div>
+<div class="row justify-content-center">
+    <div class="col-6">
+        <p class="p-text">Alpha Tech Academy is a tech talent incubator that gives everyone (even non IT background) a chance to be a professional Tech Talent within 3 months.</p>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+{% load static %}
+    <div class="container blog-content">
+        <div class="row justify-content-center text-center ">
+            <div class="col-10">
+                <img src="https://i.postimg.cc/FK2YMSd0/profile-pic2.jpg" alt="" width="630px">
+            </div>
+    </div>
+    <div class="row justify-content-center text-left">
+        <div class="col-7 nama-author">
+            <h4>Fikri Humam Manar Amri</h4>
+        </div>   
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-7">
+            <p>Summary Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nesciunt enim ipsa sint et dicta maxime voluptates deleniti voluptatum fugit. Explicabo voluptate aut et cupiditate velit quibusdam eveniet quisquam ea!</p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-7">
+            <table>
+                <tr class="row justify-content-center">
+                    <td class="col-4">Alamat</td>
+                    <td class="col-1 text-right">:</td>
+                    <td class="col-7 text-left">Komplek Cipaganti Dreamland No. A20 Ujung Berung Bandung</td>
+                </tr>
+                <tr class="row justify-content-center">
+                    <td class="col-4">Telephone</td>
+                    <td class="col-1 text-right">:</td>
+                    <td class="col-7 text-left">0811223993</td>
+                </tr>
+                <tr class="row justify-content-center">
+                    <td class="col-4">Education</td>
+                    <td class="col-1 text-right">:</td>
+                    <td class="col-7 text-left">S1 Ilmu Ekonomi dan Studi Pembangunan Universitas Pajajaran</td>
+                </tr>
+                <tr class="row justify-content-center">
+                    <td class="col-4">Profession</td>
+                    <td class="col-1 text-right">:</td>
+                    <td class="col-7 text-left">Full-stack Software Engineer</td>
+                </tr>
+                <tr class="row justify-content-center">
+                    <td class="col-4">Nationality</td>
+                    <td class="col-1 text-right">:</td>
+                    <td class="col-7 text-left">Indonesian</td>
+                </tr>
+                <tr class="row justify-content-center">
+                    <td class="col-4">Company</td>
+                    <td class="col-1 text-right">:</td>
+                    <td class="col-7 text-left">Alterra</td>
+                </tr>
+                <tr class="row justify-content-center">
+                    <td class="col-4">Email</td>
+                    <td class="col-1 text-right">:</td>
+                    <td class="col-7 text-left">famri@alterra.id</td>
+                </tr>
+                <tr class="row justify-content-center">
+                    <td class="col-4">Address</td>
+                    <td class="col-1 text-right">:</td>
+                    <td class="col-7 text-left">Komplek Cipaganti Dreamland No. A20 Ujung Berung Bandung</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="row justify-content-center text-center">
+        <div class="col-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.3141822078887!2d112.60827644946008!3d-7.96644679423405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7882865ded0697%3A0xa77fa961a7c4e4b7!2sSepulsa+Lodge+Malang!5e0!3m2!1sen!2sid!4v1563896283177!5m2!1sen!2sid" width="630" height="300" frameborder="0" style="border:0" allowfullscreen class="map-author"></iframe>
+        </div>
+    </div>
+</div>
+{% endblock %}

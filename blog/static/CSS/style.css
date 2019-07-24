@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+/* base */
+.header_text {
+    background-color: #57C7CE;
+    width: 100%;
+}
+
+.wrapper {
+    margin-top: 50px;
+}
+
+.img-logo {
+    padding-top: 60px;
+}
+
+.title-text {
+    color: white;
+}
+
+.p-text {
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.footer1 {
+    background-color: #57C7CE;
+    height: 65px;
+}
+
+.footer-text {
+    padding-top: 20px;
+}
+
+.img1 {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.footer2 {
+    background-color: black;
+    height: 50px;
+}
+
+.bottom-text {
+    margin-top: 12px;
+    color: white;
+}
+
+/* index */
+.index-content {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.learn.img {
+    border: 2px solid black;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.square {
+    height: 180px;
+    width: 180px;
+    padding: 0px;
+}
+
+.separator {
+    padding-top: 30px;
+}
+
+/* blog */
+.blog-content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.tag-left {
+    padding-left: 80px;
+}
+
+.tag-right {
+    padding-right: 80px;
+}
+
+.tag-title {
+    margin-left: -35px;
+}
+
+/* Mentee */
+.mentee-content {
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+.mentee-wrapper {
+    margin-top: 25px;
+    /* margin-bottom: 100px; */
+}
+
+/* Author */
+.nama-author {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.map-author {
+    margin-top: 10px;
+}

@@ -1,0 +1,155 @@
+{% extends 'base/base.html' %}
+
+{% block title %}
+<title>Home</title>
+{% endblock %}
+
+{% block jumbotron_content %}
+{% load static %}
+<div class="row justify-content-center">
+    <div class="col-12 text-center img-logo">
+        <img src="{% static 'img/alpha-logo.png' %}" alt="">
+    </div>
+</div>
+<div class="row justify-content-center">
+    <h1 class="title-text">Alpha Tech Academy</h1>
+</div>
+<div class="row justify-content-center">
+    <div class="col-6">
+        <p class="p-text">Alpha Tech Academy is a tech talent incubator that gives everyone (even non IT background) a chance to be a professional Tech Talent within 3 months. Contact Person: Email : academy@alphatech.id Mobile phone: 087796099530</p>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+{% load static %}
+<div class="container index-content">
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <img src="{% static 'img/benefit.png' %}" alt="" width="">
+        </div>
+        <div class="col-6">
+            <h4>Learn awesome tech</h4>
+            <p>You will learn about programming language, such as Python and Javascript, build back-end apps using Flask framework with microservice concept, build client -site apps using React Library, etc.</p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <img src="{% static 'img/search-job.png' %}" alt="" width="">
+        </div>
+        <div class="col-6">
+            <h4>Land new job</h4>
+            <p>If you can pass this awesome programe, you will be part of our reliable tech team for especially Software Engineer position and other tech position such as Quality Engineer, System Analyst, etc.</p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <img src="{% static 'img/get-paid.png' %}" alt="" width="">
+        </div>
+        <div class="col-6">
+            <h4>Get paid to learn</h4>
+            <p>Join for free and earn some money. Yes you read that right, no registration fee required to enter this program. To make things even better, you will receive pocket money just for participating. Cool, right?</p>
+        </div>
+    </div>
+    <div class="wrapper-index-content">
+    </div>
+</div>
+<div class="container index-content">
+    <div class="row justify-content-center ">
+        <div class="col-4">
+            <img src="{% static 'img/mission.png' %}" alt="" width="">
+        </div>
+        <div class="col-6">
+            <h4>Who are we?</h4>
+            <p>Alpha Tech Academy is a tech talent incubation that ives anyone any chance (not even an IT background) to learn within 3 months of being a professional Tech Talent. What is our mission? We want to improve capability Tech Talent in Indonesia.</p>
+            <h4>What is our mission?</h4>
+            <p>Alpha Tech Academy is a tech talent incubation that ives anyone any chance (not even an IT background) to learn within 3 months of being a professional Tech Talent. What is our mission? We want to improve capability Tech Talent in Indonesia.</p>
+        </div>
+    </div>
+</div>
+<div class="container index-content">
+        <div class="row justify-content-center ">
+            <div class="col-3">
+                <h4>What will you learn?</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="row justify-content-center text-center separator">
+            <div class="col-3">
+                <table class="square border border-light">
+                    <tr>
+                        <td>
+                            <img src="{% static 'img/learn-html.png' %}" alt="">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-3">
+                <table class="square border border-light">
+                    <tr>
+                        <td>
+                            <img src="{% static 'img/learn-programming.png' %}" alt="">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-3">
+                <table class="square border border-light">
+                    <tr>
+                        <td>
+                            <img src="{% static 'img/learn-git.png' %}" alt="">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-3">
+                <table class="square border border-light">
+                    <tr>
+                        <td>
+                            <img src="{% static 'img/learn-api.png' %}" alt="">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+            <div class="row justify-content-center text-center separator">
+            <div class="col-3">
+                <table class="square border border-light">
+                    <tr>
+                        <td>
+                            <img src="https://i.postimg.cc/6qTtSX4m/learn-react.png" alt="">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-3">
+                <table class="square border border-light">
+                    <tr>
+                        <td>
+                            <img src="https://i.postimg.cc/GmDhddg0/learn-tdd.png" alt="">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-3">
+                <table class="square border border-light">
+                    <tr>
+                        <td>
+                            <img src="https://i.postimg.cc/c4p0DPxF/learn-server.png" alt="">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-3">
+                <table class="square border border-light">
+                    <tr>
+                        <td>
+                            <img src="https://i.postimg.cc/vTjbwNWH/learn-scrum.png" alt="">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

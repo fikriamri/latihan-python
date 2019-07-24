@@ -1,0 +1,12 @@
+{% extends 'base_binatang/base.html' %}
+
+{% block content %}
+<p>ini adalah daftar binatang yang sangat hebat</p>
+<table>
+    {% for binatang in Binatang %}
+    <td>
+        Nama: {{ binatang.nama }} <br> Umur: {{ binatang.umur }}
+    </td>
+    {% endfor %}
+</table>
+{% endblock %}

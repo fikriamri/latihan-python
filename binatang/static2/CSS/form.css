@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+ 
+
+#left-image {
+    margin-left: 132px;
+    z-index: 100;
+}
+
+span {
+    color: #ff0000;
+}
+
+.box-biru {
+    background-color: rgba(25, 52, 94, 0.65);
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 792px;
+    opacity: 65%;
+}
+
+.nol{
+    padding-right: 0;
+    padding-left: 0;
+    background-image: url(../img/charles-rRWiVQzLm7k-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 512px;
+    height: 792px;
+}
+
+.contact-us {
+    padding-top: 29px;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    color: #19345E;
+}
+
+.submit {
+    background-color: #F47522;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px;
+    font-size: 16px;
+    color: white;
+    width: 150px;
+    height: 43px;
+}
