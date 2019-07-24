@@ -1,6 +1,7 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .models import Blog, Mentee, Mentor
 from .forms import BlogForm, MenteeForm, MentorForm
+from django.http import Http404
 
 # Create your views here.
 def index(request):
@@ -9,6 +10,13 @@ def index(request):
 def blog(request):
     list_blog = Blog.objects.all()
     return render(request, 'blog.html', {'Blog': list_blog})
+
+def blog_detail(request, blog_id):
+    try:
+        list_blog = Blog.objects.get(pk=blog_id)
+    except Blog.DoesNotExist:
+        raise Http404("Blog does not exist")
+    return render(request, 'blog_detail.html', {'Blog': list_blog})
 
 def mentee(request):
     list_mentee = Mentee.objects.all()

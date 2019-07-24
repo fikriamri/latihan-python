@@ -23,21 +23,20 @@
 
 {% block content %}
 {% load static %}
-{% for blog in Blog %}
     <div class="container blog-content">
         <div class="row justify-content-center text-center ">
             <div class="col-10">
-                <img src="{{blog.pic}}" alt="" width="630px">
+                <img src="{{Blog.pic}}" alt="" width="630px">
             </div>
     </div>
     <div class="row justify-content-center text-center">
         <div class="col-10">
             <div class="row justify-content-center text-center ">
                 <div class="col-5 text-left tag-left">
-                    <p>{{blog.tanggal_pembuatan}}</p>
+                    <p>{{Blog.tanggal_pembuatan}}</p>
                 </div>
                 <div class="col-5 text-right tag-right">
-                    <p>{{blog.comment}} Comment</p>
+                    <p>{{Blog.comment}} Comment</p>
                 </div>
             </div>
         </div>   
@@ -46,7 +45,7 @@
         <div class="col-10">
             <div class="row justify-content-center text-left tag-title">
                 <div class="col-8">
-                    <h3 >{{blog.judul}}</h3>
+                    <h3 >{{Blog.judul}}</h3>
                 </div>
             </div>
         </div>
@@ -55,20 +54,10 @@
         <div class="col-10">
             <div class="row justify-content-center text-left tag-title">
                 <div class="col-8">
-                    <p>{{blog.isi|safe|truncatewords:"50"|linebreaks}}</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-10">
-            <div class="row justify-content-center text-left tag-title">
-                <div class="col-8">
-                    <a href="{% url 'blog_detail' blog.id %}">Baca selengkapnya</a>
+                    <p>{{Blog.isi}}</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-{% endfor %}
 {% endblock %}
